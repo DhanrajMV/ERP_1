@@ -8,18 +8,27 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
+import PomRepository.loginPage;
 import genericLibrary.BaseTest;
 
-public class loginToWebsite extends BaseTest {
+public class leaveRequest extends BaseTest {
 
 	@Test
 	public static void login() throws InterruptedException {
 		
 		driver.get("http://192.168.6.18:501/");
-		driver.findElement(By.id("txtLoginName")).sendKeys("000972");
-		driver.findElement(By.id("txtpassword")).sendKeys("A");
-		Thread.sleep(5000);	
-		driver.findElement(By.xpath("//button[@class='login100-form-btn submit']")).click();
+//		driver.findElement(By.id("txtLoginName")).sendKeys("000010");
+//		driver.findElement(By.id("txtpassword")).sendKeys("A");
+//		Thread.sleep(5000);	
+//		driver.findElement(By.xpath("//button[@class='login100-form-btn submit']")).click();
+		
+		loginPage lp=new loginPage(driver);
+		lp.userName("000001");
+		lp.password("A");
+		Thread.sleep(5000);
+		lp.signIn();
+		
+		
 		
 //		click on Employee service
 		JavascriptExecutor js=(JavascriptExecutor)driver;	
@@ -35,7 +44,7 @@ public class loginToWebsite extends BaseTest {
 		
 //		selecting the employee
 		driver.findElement(By.xpath("(//a[@class=\"chosen-single\"])[1]")).click();
-		driver.findElement(By.xpath("//label[text()='Employee Details']/..//input[@class=\"chosen-search-input\"]")).sendKeys("chandan",Keys.ENTER);
+		driver.findElement(By.xpath("//label[text()='Employee Details']/..//input[@class=\"chosen-search-input\"]")).sendKeys("avinash g",Keys.ENTER);
 		
 //		selecting the request type
 		driver.findElement(By.xpath("//label[text()='Request Type']/..//span[text()='-Select-']")).click();

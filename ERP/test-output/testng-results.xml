@@ -8,12 +8,12 @@
       <![CDATA[Browser window is maximized successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-06-02T14:19:35 IST" name="Default suite" finished-at="2022-06-02T14:19:48 IST" duration-ms="12743">
+  <suite started-at="2022-06-09T05:23:19Z" name="Default suite" finished-at="2022-06-09T05:23:33Z" duration-ms="14157">
     <groups>
     </groups>
-    <test started-at="2022-06-02T14:19:35 IST" name="Default test" finished-at="2022-06-02T14:19:48 IST" duration-ms="12743">
-      <class name="LoginToWebsite.loginToWebsite">
-        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:LoginToWebsite.loginToWebsite@6a28ffa4]" started-at="2022-06-02T14:19:35 IST" name="openApplication" finished-at="2022-06-02T14:19:36 IST" duration-ms="986" status="PASS">
+    <test started-at="2022-06-09T05:23:19Z" name="Default test" finished-at="2022-06-09T05:23:33Z" duration-ms="14157">
+      <class name="TestScripts.leaveRequest">
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:TestScripts.leaveRequest@74e28667]" started-at="2022-06-09T05:23:19Z" name="openApplication" finished-at="2022-06-09T05:23:20Z" duration-ms="1612" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,11 +30,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="login()[pri:0, instance:LoginToWebsite.loginToWebsite@6a28ffa4]" started-at="2022-06-02T14:19:36 IST" name="login" finished-at="2022-06-02T14:19:48 IST" duration-ms="11738" status="PASS">
+        <test-method signature="login()[pri:0, instance:TestScripts.leaveRequest@74e28667]" started-at="2022-06-09T05:23:20Z" name="login" finished-at="2022-06-09T05:23:33Z" duration-ms="12532" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-      </class> <!-- LoginToWebsite.loginToWebsite -->
+      </class> <!-- TestScripts.leaveRequest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

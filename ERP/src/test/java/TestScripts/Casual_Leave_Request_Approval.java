@@ -14,7 +14,7 @@ import PomRepository.Leave_Request_Approval_Process__POM_1_2;
 import PomRepository.loginPage;
 import genericLibrary.BaseTest;
 
-public class Leave_Request_Approval_1_2 extends BaseTest{
+public class Casual_Leave_Request_Approval extends BaseTest{
 	
 	@Test
 	public static void main() throws InterruptedException {

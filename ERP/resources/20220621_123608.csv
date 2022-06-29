@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression,Chrome 102.0.5005.115,,,12:36:14,12:36:51,36.515s,PASSED
+,,,,,,,
+Test Cases/01LeavetRequestApply000851,Chrome 102.0.5005.115,,,12:36:14,12:36:50,36.066s,PASSED
+"openBrowser("""")",Chrome 102.0.5005.115,,,12:36:14,12:36:16,1.739s,PASSED
+"navigateToUrl(""http://192.168.6.18:501/"")",Chrome 102.0.5005.115,,,12:36:16,12:36:17,1.000s,PASSED
+"setText(findTestObject(""Object Repository/LeaveRequestApply000851/Page_ERP/input_Login_LoginName""), ""000851"")",Chrome 102.0.5005.115,,,12:36:17,12:36:18,0.739s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/LeaveRequestApply000851/Page_ERP/input_Login_Password""), ""ZyJNmQzJyQg="")",Chrome 102.0.5005.115,,,12:36:18,12:36:18,0.406s,PASSED
+"setText(findTestObject(""Object Repository/LeaveRequestApply000851/Page_ERP/input__submit__input""), ""7"")",Chrome 102.0.5005.115,,,12:36:18,12:36:19,0.654s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_ERP/button_Sign in""))",Chrome 102.0.5005.115,,,12:36:19,12:36:24,4.830s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/button_HRMS""))",Chrome 102.0.5005.115,,,12:36:24,12:36:28,4.046s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/a_HRMS""))",Chrome 102.0.5005.115,,,12:36:28,12:36:29,0.768s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/a_Employee Self Service""))",Chrome 102.0.5005.115,,,12:36:29,12:36:33,4.776s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/a_Leave Request""))",Chrome 102.0.5005.115,,,12:36:33,12:36:35,1.918s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/input_Leave Request Details_New Leave Request""))",Chrome 102.0.5005.115,,,12:36:35,12:36:38,3.027s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/a_000851  DIPAK  DEBNATH""))",Chrome 102.0.5005.115,,,12:36:38,12:36:39,0.597s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/li_000852  Druba  Rakshit""))",Chrome 102.0.5005.115,,,12:36:39,12:36:40,0.635s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/a_-Select-""))",Chrome 102.0.5005.115,,,12:36:40,12:36:40,0.775s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/li_LEAVE REQUEST""))",Chrome 102.0.5005.115,,,12:36:40,12:36:41,0.957s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/span_-Select-""))",Chrome 102.0.5005.115,,,12:36:41,12:36:42,0.889s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/li_CASUAL LEAVE""))",Chrome 102.0.5005.115,,,12:36:42,12:36:43,1.038s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/input__LeaveStartDate""))",Chrome 102.0.5005.115,,,12:36:43,12:36:44,0.703s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/a_9""))",Chrome 102.0.5005.115,,,12:36:44,12:36:45,0.913s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/input__LeaveEndDate""))",Chrome 102.0.5005.115,,,12:36:45,12:36:46,0.892s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/a_9""))",Chrome 102.0.5005.115,,,12:36:46,12:36:47,1.032s,PASSED
+"setText(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/textarea__LeaveReason""), ""ok"")",Chrome 102.0.5005.115,,,12:36:47,12:36:48,1.078s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/button_Choose Action""))",Chrome 102.0.5005.115,,,12:36:48,12:36:48,0.566s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/input_Choose Action_Actionstyle""))",Chrome 102.0.5005.115,,,12:36:48,12:36:50,1.182s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/button_OK""))",Chrome 102.0.5005.115,,,12:36:50,12:36:50,0.667s,PASSED
+,,,,,,,
+Test Cases/01LeaveRequestApply000851,Chrome 102.0.5005.115,,,12:36:50,12:36:51,0.210s,PASSED
+Test Cases/02LeaveRequestApproval000850,Chrome 102.0.5005.115,,,12:36:51,12:36:51,0.000s,PASSED
+,,,,,,,

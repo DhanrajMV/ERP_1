@@ -8,7 +8,7 @@ import PomRepository.Leave_Request_Apply_POM_1_1;
 import PomRepository.loginPage;
 import genericLibrary.BaseTest;
 
-public class Leave_Request_Apply_1_1 extends BaseTest {
+public class Casual_Leave_Request_Apply extends BaseTest {
 
 	@Test
 	 public static void login() throws InterruptedException

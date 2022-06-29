@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression,Chrome 102.0.5005.115,,,2022-06-29 14:14:27,2022-06-29 14:15:51,1m - 23.423s,FAILED
+,,,,,,,
+Test Cases/01LeavetRequestApply000851,Chrome 102.0.5005.115,,,2022-06-29 14:14:28,2022-06-29 14:15:13,45.527s,FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-06-29 14:14:28,2022-06-29 14:14:30,1.836s,PASSED
+"navigateToUrl(""http://192.168.6.18:501/"")",Chrome 102.0.5005.115,,,2022-06-29 14:14:30,2022-06-29 14:14:30,0.507s,PASSED
+"setText(findTestObject(""Object Repository/LeaveRequestApply000851/Page_ERP/input_Login_LoginName""), ""000851"")",Chrome 102.0.5005.115,,,2022-06-29 14:14:30,2022-06-29 14:14:31,0.725s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/LeaveRequestApply000851/Page_ERP/input_Login_Password""), ""ZyJNmQzJyQg="")",Chrome 102.0.5005.115,,,2022-06-29 14:14:31,2022-06-29 14:14:31,0.419s,PASSED
+"setText(findTestObject(""Object Repository/LeaveRequestApply000851/Page_ERP/input__submit__input""), ""7"")",Chrome 102.0.5005.115,,,2022-06-29 14:14:31,2022-06-29 14:14:32,0.656s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_ERP/button_Sign in""))",Chrome 102.0.5005.115,,,2022-06-29 14:14:32,2022-06-29 14:14:36,4.366s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/button_HRMS""))",Chrome 102.0.5005.115,,,2022-06-29 14:14:36,2022-06-29 14:14:41,4.161s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/a_HRMS""))",Chrome 102.0.5005.115,,,2022-06-29 14:14:41,2022-06-29 14:14:41,0.662s,PASSED
+"click(findTestObject(""Object Repository/LeaveRequestApply000851/Page_iERP Suite/a_Employee Self Service""))",Chrome 102.0.5005.115,,,2022-06-29 14:14:41,2022-06-29 14:15:13,31.918s,FAILED
+,,,,,,,
+Test Cases/02LeaveRequestApproval000850,Chrome 102.0.5005.115,,,2022-06-29 14:15:13,2022-06-29 14:15:13,0.205s,PASSED
+return null,Chrome 102.0.5005.115,,,2022-06-29 14:15:13,2022-06-29 14:15:13,0.000s,PASSED
+,,,,,,,
+Test Cases/FailedTestCase,Chrome 102.0.5005.115,,,2022-06-29 14:15:13,2022-06-29 14:15:51,37.411s,FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-06-29 14:15:14,2022-06-29 14:15:15,1.733s,PASSED
+"navigateToUrl(""http://192.168.6.18:501/"")",Chrome 102.0.5005.115,,,2022-06-29 14:15:15,2022-06-29 14:15:16,0.433s,PASSED
+"setText(findTestObject(""Object Repository/FailedTestCase/Page_ERP/input_Login_LoginName""), ""000651"")",Chrome 102.0.5005.115,,,2022-06-29 14:15:16,2022-06-29 14:15:17,0.795s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/FailedTestCase/Page_ERP/input_Login_Password""), ""ZyJNmQzJyQg="")",Chrome 102.0.5005.115,,,2022-06-29 14:15:17,2022-06-29 14:15:17,0.402s,PASSED
+"setText(findTestObject(""Object Repository/FailedTestCase/Page_ERP/input__submit__input""), ""16"")",Chrome 102.0.5005.115,,,2022-06-29 14:15:17,2022-06-29 14:15:18,0.656s,PASSED
+"click(findTestObject(""Object Repository/FailedTestCase/Page_ERP/button_Sign in""))",Chrome 102.0.5005.115,,,2022-06-29 14:15:18,2022-06-29 14:15:51,33.181s,FAILED
